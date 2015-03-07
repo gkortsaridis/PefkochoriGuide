@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yoko.PefkochoriGuide"
+    android:versionCode="9"
+    android:versionName="3.1" >
+
+    <uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Pefkochori Travle Guide"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.MainMenu"
+            android:label="Pefkochori Travel Guide" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.about"
+            android:label="About" 
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.settings"
+            android:label="Settings"  >
+            <intent-filter>
+                <action android:name="SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.fullscreen"
+            android:label="fullscreen"  
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="FULLSCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.hotels"
+            android:label="Places to stay" >
+            <intent-filter>
+                <action android:name="HOTELS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.foods"
+            android:label="Breakfast , lunch , dinner" >
+            <intent-filter>
+                <action android:name="FOODS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.funs"
+            android:label="Enjoy yourself day and night" >
+            <intent-filter>
+                <action android:name="FUNS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.others"
+            android:label="Other useful business" >
+            <intent-filter>
+                <action android:name="OTHERS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.healths"
+            android:label="Health and Treatment" >
+            <intent-filter>
+                <action android:name="HEALTHS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.fouli"
+            android:label="Rooms to let FOULI" >
+            <intent-filter>
+                <action android:name="FOULI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.filomeni"
+            android:label="Studios FILOMENI" >
+            <intent-filter>
+                <action android:name="FILOMENI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.lesse"
+            android:label="Hotel LESSE" >
+            <intent-filter>
+                <action android:name="LESSE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.bakalis"
+            android:label="Fish Tavern BAKALIS" >
+            <intent-filter>
+                <action android:name="BAKALIS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.sushi"
+            android:label="Bar SUSHI" >
+            <intent-filter>
+                <action android:name="SUSHI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.fiki"
+            android:label="Beach Bar FIKI" >
+            <intent-filter>
+                <action android:name="FIKI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.nono"
+            android:label="Night Club NONO" >
+            <intent-filter>
+                <action android:name="NONO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.ofthalmos"
+            android:label="Vision OFTHALMOS" >
+            <intent-filter>
+                <action android:name="OFTHALMOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.memories"
+            android:label="MEMORIES" >
+            <intent-filter>
+                <action android:name="MEMORIES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.fishspa"
+            android:label="Fish Spa Center" >
+            <intent-filter>
+                <action android:name="FISHSPA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.vlachos"
+            android:label="Constructions VLACHOS" >
+            <intent-filter>
+                <action android:name="VLACHOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.xatzis"
+            android:label="Real Estate Chatzis" >
+            <intent-filter>
+                <action android:name="XATZIS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.photospeed"
+            android:label="PHOTOSPEED" >
+            <intent-filter>
+                <action android:name="PHOTOSPEED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.tobacco"
+            android:label="Tobacco x-Press" >
+            <intent-filter>
+                <action android:name="TOBACCO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yoko.PefkochoriGuide.kokkinou"
+            android:label="Pediatrician A.Kokkinou" >
+            <intent-filter>
+                <action android:name="KOKKINOU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

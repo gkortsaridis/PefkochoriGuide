@@ -1,0 +1,2 @@
+Me auto to keystore -> password  : pefkoapp
+Alias password : pefkoapp
